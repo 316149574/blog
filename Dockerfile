@@ -9,5 +9,5 @@ COPY . .
 # 将当前项目文件中的文件拷贝到容器中的/app目录 
 COPY  /app/public /usr/share/nginx/html
 
-EXPOSE 4000
+EXPOSE 8080
 CMD ["nginx", "-g", "daemon off;"]
